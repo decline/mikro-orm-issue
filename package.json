@@ -5,6 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "migrations": "mikro-orm migration:up",
     "start": "node dist/main.js"
   },
   "keywords": [],
