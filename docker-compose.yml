@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    hostname: db
+    image: postgres:14.5
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mikro-orm-issue
+    ports:
+      - '35000:5432'
+    healthcheck:
+      test: pg_isready -U user -d mikro-orm-issue -h 127.0.0.1

@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# IDE - Jetbrains
+/.idea
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# transpiled js files
+/dist

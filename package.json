@@ -1,0 +1,23 @@
+{
+  "name": "mikro-orm-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mikro-orm/core": "^5.8.9",
+    "@mikro-orm/migrations": "^5.8.9",
+    "@mikro-orm/postgresql": "^5.8.9"
+  },
+  "devDependencies": {
+    "@mikro-orm/cli": "^5.8.9",
+    "@types/node": "^20.8.6",
+    "typescript": "5.1.6"
+  }
+}
